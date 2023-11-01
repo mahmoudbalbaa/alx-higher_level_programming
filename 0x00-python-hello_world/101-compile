@@ -1,5 +1,5 @@
 #!/bin/bash
-pyfile=$PYFILE
-filename=${pyfile%.py}
-python -m compileall $pyfile
-mv "${filename}.pyc" "${filename}c.pyc"
+python3 -m py_compile $PYFILE
+mv __pycache__/*.pyc ./$PYFILE'c'
+chmod +x $PYFILE'c'
+rmdir __pycache__
