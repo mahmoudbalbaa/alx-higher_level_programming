@@ -1,2 +1,4 @@
 #!/usr/bin/python3
-print("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+import string
+print(''.join(list(map(chr, range(ord('A'), ord('Z')+1)))))
+
