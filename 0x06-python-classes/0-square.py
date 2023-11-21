@@ -5,4 +5,3 @@
 class Square:
     """Represents a square. No body."""
     pass
-
