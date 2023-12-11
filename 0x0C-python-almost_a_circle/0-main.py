@@ -4,17 +4,17 @@ from models.base import Base
 
 if __name__ == "__main__":
 
-    bs1 = Base()
-    print(bs1.id)
+    b1 = Base()
+    print(b1.id)
 
-    bs2 = Base()
-    print(bs2.id)
+    b2 = Base()
+    print(b2.id)
 
-    bs3 = Base()
-    print(bs3.id)
+    b3 = Base()
+    print(b3.id)
 
-    bs4 = Base(12)
-    print(bs4.id)
+    b4 = Base(12)
+    print(b4.id)
 
-    bs5 = Base()
-    print(bs5.id)
+    b5 = Base()
+    print(b5.id)
